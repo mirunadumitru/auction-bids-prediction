@@ -7,7 +7,7 @@ st.set_page_config(page_title="Auction Model Dashboard", layout="wide")
 st.title("Auction Model Dashboard")
 
 METRICS_CSV = Path("newProject/reports/metrics.csv")
-FIG_DIR = Path("reports/figs")
+FIG_DIR = Path("newProject/reports/figs")
 
 MODEL_IMAGES = {
     "Naive Baseline": [FIG_DIR/"scatter_baseline.png"],
