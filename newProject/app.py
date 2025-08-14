@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(page_title="Auction Model Dashboard", layout="wide")
 st.title("Auction Model Dashboard")
 
-METRICS_CSV = Path("reports/metrics.csv")
+METRICS_CSV = Path("newProject/reports/metrics.csv")
 FIG_DIR = Path("reports/figs")
 
 MODEL_IMAGES = {
